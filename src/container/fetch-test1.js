@@ -8,7 +8,7 @@ class FetchApiTest1 extends Component {
     }
 
     componentDidMount() {
-        let api = 'https://jsonplaceholder.typicode.com';
+        let api = 'https://jsonplaceholder.typicode.com/posts';
         fetch(api).then( (res) => {
             return res.json();
             }).then( (data) => {

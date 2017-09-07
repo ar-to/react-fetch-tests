@@ -1,6 +1,7 @@
 {
-  "name": "react-search-test",
-  "version": "0.1.0",
+  "name": "react-fetch-tests",
+  "version": "0.2.0",
+  "description": "Testing how to pull data via fetch api, react-search, etc",
   "private": true,
   "dependencies": {
     "react": "^15.6.1",
